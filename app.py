@@ -21,7 +21,7 @@ async def send_notification(token: str, message: str):
     access_token = credentials.token
 
     # Prepare the FCM message
-    fcm_url = "https://fcm.googleapis.com/v1/projects/speakout-34985/messages:send"
+    fcm_url = "https://fcm.googleapis.com/v1/projects/safezone-973d7/messages:send"
     headers = {
         "Authorization": f"Bearer {access_token}",
         "Content-Type": "application/json"
